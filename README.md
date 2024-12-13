@@ -7,15 +7,15 @@
 - `SQLCOMMANDS`
 - `static/styles.css`
 - `templates/index.html`
-** App.py **
-  Here we contain our python file which includes flask and all logic of our programm is here
-** Dockerfile **
+#  * App.py *
+  Here we contain our python file which includes flask and all logic of our programm is here#
+#  * Dockerfile *
   Docker file
-** requirements.txt **
+# * requirements.txt *
   Here requirements of project, you can install them by using `pip install -r requirements.txt`
-**SQLCOMMANDS**
+# *SQLCOMMANDS*
   SQL commands to create Database and table
-**styles.css**
+# *styles.css*
   All Styles of index.html
-**index.html**
+# *index.html*
   HTML file that FLASK uses to display data  
