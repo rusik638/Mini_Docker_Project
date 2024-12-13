@@ -1,5 +1,5 @@
 # Mini_Docker_Project
-** Project Content: **
+# *Project Content:*
 - `app.py`
 - `docker-compose.yml`
 - `Dockerfile`
@@ -7,11 +7,11 @@
 - `SQLCOMMANDS`
 - `static/styles.css`
 - `templates/index.html`
-#  * App.py *
+#  *App.py*
   Here we contain our python file which includes flask and all logic of our programm is here#
-#  * Dockerfile *
+#  *Dockerfile*
   Docker file
-# * requirements.txt *
+# *requirements.txt*
   Here requirements of project, you can install them by using `pip install -r requirements.txt`
 # *SQLCOMMANDS*
   SQL commands to create Database and table
