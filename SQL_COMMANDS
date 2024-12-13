@@ -1,0 +1,25 @@
+CREATE DATABASE ruslan;
+
+\c ruslan;
+
+CREATE TABLE courses(
+    id serial PRIMARY KEY,
+    course_code VARCHAR(100),
+    course_name VARCHAR(500),
+    instructor VARCHAR(255),
+    schedule VARCHAR(500),
+    lvl INT
+);
+
+INSERT INTO courses(course_code, course_name, instructor, schedule, lvl) VALUES
+('Writ 2090', 'Writing in the Workplace', 'Weston Temple', 'Thurday 11.30 am - 13.50 pm', 2);
+INSERT INTO courses(course_code, course_name, instructor, schedule, lvl) VALUES
+('Cosc 1560', 'Computer Programming 2', 'Das Debasis', 'Friday 14.00 pm - 16.20 pm', 1);
+INSERT INTO courses(course_code, course_name, instructor, schedule, lvl) VALUES
+('Polt 1070', 'Introduction to political theory', 'Nino Khurtislava', 'Wednesday 11.30 am - 1.50 pm ', 1);
+INSERT INTO courses(course_code, course_name, instructor, schedule, lvl) VALUES
+('Spcm 1040', 'Public Speaking', 'Parvina Khujaeva', 'Thursday 14.00 pm - 4.20 pm ', 1);
+INSERT INTO courses(course_code, course_name, instructor, schedule, lvl) VALUES
+('Cosc 2610', 'Operating Systems', 'Sokhibjamol Boeva', 'Friday 11.30 am - 13.50 pm ', 2);
+
+SELECT * FROM courses;
