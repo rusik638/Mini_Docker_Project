@@ -20,7 +20,7 @@ def index():
     conn = get_db_connection()
     cursor = conn.cursor()
     if lvl and lvl.isdigit():
-        cursor.execute("SELECT * FROM courses WHERE level = '{}'".format(lvl))
+        cursor.execute("SELECT * FROM courses WHERE lvl = '{}'".format(lvl))
     else:
         cursor.execute("SELECT * FROM courses")
     courses = cursor.fetchall()
